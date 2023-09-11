@@ -1,0 +1,39 @@
+PART ONE: RESEARCH
+
+NAME: Christine Chang 
+THE DESTINATION DOMIN: youtube.com
+HOW I USE THE WEBSITE I'M GOING TO TRACE: I watch youtube everyday I would like to know more about this website
+
+-----------
+1. 10.1.200.1 (10.1.200.1)  12.901 ms  1.728 ms  2.477 ms
+- private 
+
+-----------
+2. newschl6502.n.subnet.rcn.com (206.71.229.161)  3.918 ms  2.950 ms  2.535 ms
+LOCATION: New Jersey, Englewood Cliffs 
+FUN FACT: There's a lyrics in the musical Hamilton: "everything is legal in New Jersey"
+
+-----------
+3. 206.71.233.73 (206.71.233.73)  3.450 ms  3.683 ms  3.377 ms
+LOCATION: New York, New York, Lower Manhattan (Downtown)
+FUN FACT: Centuries before New York City sprawled into a skyscraping, five-borough metropolis, the island of Manhattan was a swampy woodland.
+
+-----------
+4. hge0-0-0-5.core1.qens.ny.rcn.net (207.172.19.145)  4.625 ms
+    207.172.17.50 (207.172.17.50)  4.845 ms  5.100 ms
+LOCATION: Maryland, Silver Spring, 
+FUN FACT: Maryland was named after Queen Henrietta Maria of England. 
+
+-----------
+5. 207.172.17.37 (207.172.17.37)  4.621 ms
+    207.172.17.33 (207.172.17.33)  4.418 ms
+    207.172.17.37 (207.172.17.37)  4.231 ms
+LOCATION: Illinois, Naperville, 
+FUN FACT: The State Snack of Illinois is Popcorn.
+
+-----------
+6. 72.14.219.192 (72.14.219.192)  31.567 ms
+    74.125.147.32 (74.125.147.32)  4.433 ms
+    72.14.219.192 (72.14.219.192)  5.029 ms
+LOCATION: California, Mountain View
+FUN FACT: It was named Mountain View for its bird's eye view of the Santa Cruz Mountains.
