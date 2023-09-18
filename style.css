@@ -10,9 +10,19 @@ body {
 
 h1 {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 45px;
 
   background-color: #7585df90;
+}
+
+.title {
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+  margin: 50px;
+
+  background-color: #d3d3d3bd;
 }
 
 .typewriter h1 {
@@ -56,6 +66,30 @@ h1 {
   background-size: 100%;
   background-repeat: no-repeat;
 
+}
+
+.nyBG {
+  background-image: url("/image/ny.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.njBG {
+  background-image: url("/image/nj.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.ilBG {
+  background-image: url("/image/il.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.caBG {
+  background-image: url("/image/ca.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /* PIN */
