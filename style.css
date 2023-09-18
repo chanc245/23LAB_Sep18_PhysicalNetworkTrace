@@ -62,32 +62,32 @@ h1 {
 
 /* Background image */
 .indexBG {
-  background-image: url("/image/us_map.png");
+  background-image: url("/23LAB_Sep18_PhysicalNetworkTrace//image/us_map.png");
   background-size: 100%;
   background-repeat: no-repeat;
 
 }
 
 .nyBG {
-  background-image: url("/image/ny.jpg");
+  background-image: url("/23LAB_Sep18_PhysicalNetworkTrace//image/ny.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .njBG {
-  background-image: url("/image/nj.jpg");
+  background-image: url("/23LAB_Sep18_PhysicalNetworkTrace//image/nj.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .ilBG {
-  background-image: url("/image/il.jpg");
+  background-image: url("/23LAB_Sep18_PhysicalNetworkTrace//image/il.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .caBG {
-  background-image: url("/image/ca.jpg");
+  background-image: url("/23LAB_Sep18_PhysicalNetworkTrace//image/ca.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
