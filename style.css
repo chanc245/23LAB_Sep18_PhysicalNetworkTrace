@@ -4,6 +4,50 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #dadada;
+
+  font-family: 'Courier New';
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+
+  background-color: #7585df90;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .15em solid rgba(0, 0, 139, 0.519);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: rgba(0, 0, 139, 0.517);
+  }
 }
 
 /* Background image */
@@ -14,6 +58,7 @@ body {
 
 }
 
+/* PIN */
 .pin {
   width: 50px;
   height: 50px;
@@ -34,6 +79,7 @@ body {
   border-radius: 50%;
 }
 
+/* Location wrapper */
 .location {
   display: flex;
   justify-content: center;
