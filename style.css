@@ -20,10 +20,15 @@ h1 {
   justify-content: center;
   align-items: center;
 
-  margin: 50px;
+  margin: 10px;
 
   background-color: #d3d3d3bd;
 }
+
+.nextBtns {
+  display: flex;
+}
+
 
 .typewriter h1 {
   overflow: hidden;
@@ -133,6 +138,28 @@ h1 {
 }
 
 .location:hover .text {
+  visibility: visible;
+}
+
+.location_in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* position: absolute; */
+}
+
+.location_in .text {
+  visibility: hidden;
+  background-color: none;
+  text-align: center;
+  position: relative;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.location_in:hover .text {
   visibility: visible;
 }
 
