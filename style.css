@@ -6,6 +6,14 @@ body {
   background: #dadada;
 }
 
+/* Background image */
+.indexBG {
+  background-image: url("/image/us_map.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
 .pin {
   width: 50px;
   height: 50px;
@@ -26,19 +34,26 @@ body {
   border-radius: 50%;
 }
 
-.indexBG {
-  background-image: url("/image/us_map.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-
-}
-
 .location {
   display: flex;
   justify-content: center;
   align-items: center;
 
   position: absolute;
+}
+
+.location .text {
+  visibility: hidden;
+  background-color: none;
+  text-align: center;
+  position: relative;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.location:hover .text {
+  visibility: visible;
 }
 
 /* New York */
@@ -60,11 +75,12 @@ body {
 }
 
 /* California, Mountain View */
-.califonia {
+.california {
   top: 380px;
   left: 15px;
 }
 
+/* Bouncing animation */
 @keyframes bounce {
 
   0%,
