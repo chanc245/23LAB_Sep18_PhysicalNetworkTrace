@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #dadada;
+}
+
+.pin {
+  width: 50px;
+  height: 50px;
+  background-color: #5e73ea;
+  border-radius: 60px 60px 0px 60px;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.pin::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  position: absolute;
+  left: 26%;
+  top: 26%;
+  border-radius: 60px;
+}
+
+.indexBG {
+  background-image: url("/image/us_map.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+}
+
+/* New York */
+.newYork {
+  top: 235px;
+  left: 1340px;
+}
+
+/* New Jersey */
+.newJersey {
+  top: 250px;
+  left: 1320px;
+}
+
+/* Illinois, Naperville */
+.illinois {
+  top: 270px;
+  left: 950px;
+}
+
+/* California, Mountain View */
+.califonia {
+  top: 380px;
+  left: 15px;
+}
