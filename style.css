@@ -183,3 +183,61 @@ h1 {
 .location:hover {
   animation: bounce 1s ease infinite;
 }
+
+.movingDot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  background-color: rgba(73, 71, 139, 0.605);
+
+  position: absolute;
+
+  animation-name: jumpAround;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes jumpAround {
+
+  /* New York */
+  0% {
+    top: 235px;
+    left: 1340px;
+  }
+
+  5% {
+    transform: translateY(-20px);
+  }
+
+  10% {
+    transform: translateY(20px);
+  }
+
+  /* New Jersey */
+  20% {
+    top: 250px;
+    left: 1320px;
+  }
+
+  /* 30% {
+    transform: translateY(-50px);
+  }
+
+  35% {
+    transform: translateY(50px);
+  } */
+
+  /* Illinois */
+  40% {
+    top: 270px;
+    left: 950px;
+  }
+
+  /* California */
+  100% {
+    top: 380px;
+    left: 15px;
+  }
+}
